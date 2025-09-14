@@ -60,6 +60,13 @@ public class ContactBook {
         contacts[searchIndex(name)].setEmail(email);
     }
 
+    public boolean hasEqualPhones() {
+        boolean result = false;
+
+        return true;
+    }
+
+
     private int searchIndex(String name) {
         int i = 0;
         int result = -1;
